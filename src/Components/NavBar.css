@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles&family=Krona+One&family=Titillium+Web:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --main-pink-color: rgba(206, 190, 222, 1);
+}
+
+nav{
+  margin-top: 10px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  justify-content: space-around;
+  background-color: var(--main-pink-color);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif; 
+  letter-spacing: .2rem; 
+}
+
+.nav-list-item button {
+  position: relative;
+  align-self: center;
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border-style: none;
+  text-transform: uppercase;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  letter-spacing: .2rem;
+}
+
+.nav-list-item {
+  width: auto;
+}
+
+.nav-item{
+  align-self: center;
+  /* font-weight: bold; */
+}
+
+.nav-list-item {
+  cursor: pointer;
+}
+
+#logo{
+  height: 55px;
+  /* margin-left: 1rem;  */
+  align-self: center;
+}
+
+.dd{
+  width: 200px;
+  background-color: var(--main-pink-color);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: absolute;
+  float: none;
+}
+
+
+.dd-item {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* font-weight: bold; */
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  width: 200px;
+}
+
+.icon {
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transfrom 1s ease-out;
+  width: 65px;
+  font-size: 35px;
+}
+
+/* have to adjust transition for all icons to increase in size on hover */
+
+/* ON HOVER */
+
+.icon:hover {
+  transform: scale(1.2);
+  /* font-size-adjust: 18px; */
+}
+
+/* #FB:hover {
+  height: 80px;
+} */
+
+.nav-list-item:hover .dd {
+  display: block;
+}
+
+button:hover, .dd-item:hover, .nav-item:hover {
+  color: blueviolet;
+  transform: scale(1.2);
+  transition: all 350ms;
+  
+}

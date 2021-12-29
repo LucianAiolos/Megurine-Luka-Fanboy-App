@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Gallery from './Components/Gallery/Gallery'
+import Welcome from './Components/WelcomeSection/Welcome'
+import Shop from './Components/Shop/Shop'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <App/>
+    <Routes>
+      <Route path="/" element={<Welcome />} />
+      <Route path="gallery" element={<Gallery/>} />
+      <Route path="shop"  element={<Shop/>} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 

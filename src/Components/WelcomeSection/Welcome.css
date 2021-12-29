@@ -1,0 +1,49 @@
+
+
+.welcomeSection {
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 300px;
+  font-family: 'Fredoka One', Arial, Helvetica, sans-serif;
+}
+
+.welcome-luka{
+  /* background: transparent; */
+  
+  opacity: .95;
+  /* margin-top: 70px;
+  margin-left: 100px; */
+  /* background-color: transparent; */
+}
+
+.title-container {
+  height: 80vh; 
+  width: 30%;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.welcome-logo {
+  height: 300px;
+}
+
+.fanboy-title {
+  font-size: 50px;
+  color: rgba(236, 181, 190, 0.938);
+  text-align: center;
+  
+}
+
+.blurb, .first-paragraph {
+  width: 250px;
+}
+
+.blurb {
+  margin-top: 200px;
+}
