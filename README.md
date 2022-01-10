@@ -2,10 +2,6 @@ Project by Lucian Brooks
 
 Megurine Luka(cuz I is Weebin) fangirl(fanboy) page.
 
-
-
-                              ---Due Date is Jan 15th, 2021---
-
 Objectives:
   - To test myself and see how well I can do making a complete site using HTML, CSS(hopefully decent by now), and   Vanilla JS
   - Posting on GitHub(project and pages) to Imitate real life work flow including documenting the project "issues".
